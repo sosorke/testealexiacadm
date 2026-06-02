@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastro rápido para receber mensagem no WhatsApp assim que você se cadastrar.">
+  <title>Cadastro — Alexia Medeiros Odontologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="cadastro">
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Alexa Medeiros Odontologia">
+        <img src="images/alexialogo.jpeg" alt="AM" class="brand-mark">
+        <span class="brand-text">
+          <strong>Consultório odontológico</strong>
+          <span>Dra. Alexia Medeiros</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Principal">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="sobre.html" data-nav="sobre">Sobre</a>
+        <a href="servicos.html" data-nav="servicos">Serviços</a>
+        <a href="contato.html" data-nav="contato">Contato</a>
+        <a href="cadastro.html" data-nav="cadastro" class="button--nav">Cadastrar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Cadastro</p>
+          <h2>Deixe nome e telefone para abrir um chat no WhatsApp na hora.</h2>
+        </div>
+
+        <div class="form-card reveal">
+          <form id="cadastro-form" class="site-form">
+            <div class="field">
+              <label for="cadastro-nome">Nome e Sobrenome</label>
+              <input id="cadastro-nome" name="nome" type="text" required placeholder="Seu nome completo">
+            </div>
+            <div class="field">
+              <label for="cadastro-telefone">Telefone</label>
+              <input id="cadastro-telefone" name="telefone" type="tel" required placeholder="Número com DDD">
+            </div>
+            <div class="field">
+              <button type="submit" class="button">Cadastrar</button>
+            </div>
+            <p id="cadastro-feedback" class="form-feedback"></p>
+          </form>
+
+        
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Alexia Medeiros Odontologia</strong>
+        <p>Atendimento odontológico com delicadeza, clareza e cuidado contínuo.</p>
+      </div>
+      <div>
+        <strong>Contato</strong>
+        <p>(21) 96541-1267</p>
+        <p>draalexiademedeiros@gmail.com</p>
+      </div>
+      <div>
+        <strong>Localização</strong>
+        <p>Rua exemplo, 123</p>
+        <p>Bangu, Rio de Janeiro - RJ</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/site-config.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
